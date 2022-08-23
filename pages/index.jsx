@@ -1,6 +1,5 @@
-import type { NextPage } from "next";
-import Head from "next/head";
 import { useState } from "react";
+import Head from "next/head";
 import { NFTCard } from "../components/NFTCard";
 
 const apiKey = process.env.NEXT_PUBLIC_NFT_API_KEY;
