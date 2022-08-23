@@ -5,7 +5,7 @@ import { NFTCard } from "../components/NFTCard";
 const apiKey = process.env.NEXT_PUBLIC_NFT_API_KEY;
 const baseURL = `https://eth-mainnet.alchemyapi.io/v2/${apiKey}/getNFTs/`;
 
-const Home: NextPage = () => {
+const Home = () => {
   const [walletAddress, setWalletAddress] = useState("");
   const [collectionAddress, setCollectionAddress] = useState("");
   const [isFetchByCollection, setIsFetchByCollection] = useState(false);
